@@ -29,7 +29,7 @@ Fico entusiasmado em abrir as portas do meu portfólio para que você possa expl
 ## Visualização do projeto
 
 <div align="center">
-  <a href="https://github.com/Robson-Jorge" onclick="window.open(this.href, '_blank'); return false;">Link deploy
+  <a href="https://robson-jorge.github.io/Portfolio/" onclick="window.open(this.href, '_blank'); return false;">Link deploy
   </a>
   <br><br>
   <p>Desktop</p>
