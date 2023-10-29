@@ -1,7 +1,7 @@
 <h1 align="center">Portfólio </h1> <br>
 <div align="center" id=portfolio>
     <a href="#" onclick="window.open(this.href, '_blank'); return false;">
-    <img alt="My-portfolio" title="Clique para visualizar o projeto" src="./src/assets/my-portfolio.png" width="500">
+    <img alt="My-portfolio" title="Clique para visualizar o projeto" src="./src/assets/my-portfolio.png" width="100%">
     </a>
 </div>
 
