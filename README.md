@@ -1,9 +1,9 @@
 <h1 align="center">Portfólio </h1> <br>
-<p align="center" id=portfolio>
+<div align="center" id=portfolio style="background-color: #1891d4; width: 100%;">
     <a href="#" onclick="window.open(this.href, '_blank'); return false;">
     <img alt="My-portfolio" title="Clique para visualizar o projeto" src="./src/assets/my-portfolio.png" width="500">
     </a>
-</p>
+</div>
 
 <p align="center">
   Bem-vindo ao meu Portfólio. Aqui, você encontrará minha jornada e projetos incríveis. 🚀 Vamos explorar!
