@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robson Jorge - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <link rel="shortcut icon" href="./src/assets/favicon.svg" type="image/x-icon">
+
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="./src/css/scrollbar.css">
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#home">
+          <img class="logo" src="./src/assets/logo.svg" alt="Logo">
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim" class="hover-animado">Sobre mim</a></li>
+            <li><a href="#habilidades" class="hover-animado">Habilidades</a></li>
+            <li><a href="#projetos" class="hover-animado">Meus projetos</a></li>
+            <li><a href="#contato" class="hover-animado">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá ✌️,</p>
+          <h1>Sou o Robson Jorge</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/robson-jorge-62a12a26a/" target="_blank" class="outer-shadow"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B556292600017&text&type=phone_number&app_absent=0"
+              target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/Robson-Jorge" target="_blank" class="outer-shadow"><i
+                class="fab fa-github"></i></a>
+            <a href="mailto:robsonsouzajorge@hotmail.com" target="_blank" class="outer-shadow"><i
+                class="fas fa-envelope"></i></a>
+          </div>
+
+        </div>
+
+        <a href="#sobre-mim" class="down-arrow"><i class="fas fa-chevron-down"></i></a>
+
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="imagem-sobre-mim">
+          <div class="img-box">
+            <img src="src/assets/foto-perfil.png" alt="foto sobre mim" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Robson Souza Jorge e sou um desenvolvedor frontend</strong><br>
+            Estou constantemente aprimorando minhas habilidades na área de programação, explorando novas bibliotecas,
+            frameworks e ferramentas. Sou apaixonado por aprender e evoluir, e a programação oferece um espaço infinito
+            para o crescimento. Além disso, estou sempre me desafiando com novos projetos e participando ativamente de
+            comunidades de programação. Procuro feedback de outros desenvolvedores e desenvolvedoras, enquanto também
+            tento ajudar com o conhecimento que já adquiri. 💻
+          </p>
+
+          <p>
+            Além da programação, mantenho um equilíbrio saudável entre atividades físicas e diversão. Durante a semana,
+            sou frequentador assíduo da academia, cuidando tanto da mente quanto do corpo. 💜<br>
+            Nas horas vagas, gosto de reservar um tempinho para os amigos, onde conseguimos colocar a conversa em dias
+            enquanto jogamos alguns jogos. 🕹️ 🤖
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="detalhes">
+          <h2>Conhecimentos</h2>
+
+          <div class="lista-info">
+            <p class="esconder escolhido">*passe o cursor do mouse no card para ler*</p>
+
+            <p class="esconder">HTML (HyperText Markup Language) é a linguagem padrão para criar e estruturar conteúdo
+              em páginas da web. Ela serve como o esqueleto das páginas, permitindo a definição de elementos como
+              cabeçalhos, parágrafos, assets, links e formulários, organizando o conteúdo de maneira hierárquica.</p>
+
+            <p class="esconder">CSS (Cascading Style Sheets) é uma linguagem de estilo que controla o layout e a
+              aparência visual das páginas da web. Ela permite definir cores, fontes, margens, espaçamentos e outros
+              estilos, tornando as páginas atraentes e responsivas. CSS desempenha o papel de separar a estrutura (HTML)
+              do estilo (design) de uma página.</p>
+
+            <p class="esconder">JavaScript é uma linguagem de programação que torna as páginas da web interativas e
+              dinâmicas. Com JavaScript, é possível adicionar funcionalidades como animações, validação de formulários,
+              interações com o usuário e muito mais. É uma linguagem de script executada diretamente no navegador do
+              usuário, permitindo a criação de experiências interativas na web.</p>
+
+            <p class="esconder">TypeScript é uma linguagem de programação que estende o JavaScript com recursos de
+              tipagem estática. Ela permite o desenvolvimento mais seguro e eficiente de aplicativos, tornando os erros
+              mais previsíveis e facilitando a manutenção de código.</p>
+
+            <p class="esconder">React é uma biblioteca JavaScript amplamente utilizada para criar interfaces de usuário
+              dinâmicas e reativas. Ele é usado para construir componentes reutilizáveis que compõem interfaces de
+              usuário complexas, tornando o desenvolvimento web mais eficiente.</p>
+
+            <p class="esconder">Styled-components é uma biblioteca que permite a criação de estilos em JavaScript,
+              diretamente nos componentes React. Isso torna o desenvolvimento mais flexível, permitindo estilos
+              dinâmicos baseados em props e estados.</p>
+
+            <p class="esconder">Uma API REST (Representational State Transfer) é uma arquitetura para a comunicação
+              entre sistemas na web. Ela define um conjunto de princípios para criar serviços da web que são eficientes,
+              escaláveis e fáceis de manter.</p>
+
+            <p class="esconder">Figma é uma ferramenta de design de interface do usuário baseada na web. Ela é usada por
+              designers e equipes de design para criar protótipos, interfaces e colaborar em projetos de design de
+              maneira eficiente.</p>
+          </div>
+        </div>
+        <ul class="tecnologias">
+          <li class="tools"><img src="./src/assets/svg-habilidades/html.svg" alt="Html"></li>
+          <li class="tools"><img src="./src/assets/svg-habilidades/css.svg" alt="Css"></li>
+          <li class="tools"><img src="./src/assets/svg-habilidades/javascript.svg" alt=""></li>
+          <li class="tools"><img src="./src/assets/svg-habilidades/typescript.svg" alt=""></li>
+          <li class="tools"><img src="./src/assets/svg-habilidades/react.svg" alt=""></li>
+          <li class="tools"><img src="./src/assets/svg-habilidades/styled-components.svg" alt=""></li>
+          <li class="tools"><img src="./src/assets/svg-habilidades/api.svg" alt=""></li>
+          <li class="tools"><img src="./src/assets/svg-habilidades/figma.svg" alt=""></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">
+          <picture>
+            <source media="(max-width:600px)" srcset="./src/assets/design-projetos/Pokedéx-Mobile.gif">
+            <img src="./src/assets/design-projetos/Pokedéx-Desktop.gif" alt="Nome do projeto" />
+          </picture>
+          <h3>Projeto Pokemon</h3>
+          <div class="informacoes-projeto">
+            <p>Bem-vindo(a) à Pokedéx, a sua porta de entrada para o universo dos Pokémon! Este repositório traz
+              detalhes sobre a criação desta incrível aplicação que traz a magia dos Pokémon à sua tela.</p>
+            <ul class="ferramentas">
+              <li><i class="fab fa-react"></i></li>
+              <li><i class="fab fa-css3-alt"></i></li>
+              <li><i class="fab fa-js-square"></i></li>
+              <li><i class="fab fa-html5"></i></li>
+            </ul>
+            <div class="links">
+              <a href="https://github.com/Robson-Jorge/projeto-pokedex" target="_blank">
+                Ver repositório GitHub
+              </a>
+              <a href="https://projeto-pokedex-mu.vercel.app/" target="_blank">
+                Ver GitHub Pages
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projeto">
+          <picture>
+            <source media="(max-width:600px)" srcset="./src/assets/design-projetos/Projeto-one-piece-mobile.gif">
+            <img src="./src/assets/design-projetos/Projeto-one-piece.gif" alt="Nome do projeto" />
+          </picture>
+          <h3>Projeto One Piece</h3>
+          <div class="informacoes-projeto">
+            <p>O projeto é uma página web interativa dedicada ao fascinante mundo dos personagens do anime "One Piece".
+              Aqui, apresentamos uma experiência envolvente que permite aos entusiastas explorar uma coleção de
+              personagens icônicos.</p>
+            <ul class="ferramentas">
+              <li><i class="fab fa-html5"></i></li>
+              <li><i class="fab fa-css3-alt"></i></li>
+              <li><i class="fab fa-js-square"></i></li>
+            </ul>
+            <div class="links">
+              <a href="https://github.com/Robson-Jorge/One-piece" target="_blank">
+                <p>Ver repositório GitHub</p>
+              </a>
+              <a href="https://robson-jorge.github.io/One-piece/" target="_blank">
+                <p>Ver GitHub Pages</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projeto">
+          <picture>
+            <source media="(max-width:600px)" srcset="./src/assets/design-projetos/gitHub-usuario-mobile.gif">
+            <img src="./src/assets/design-projetos/gitHub-usuario.gif" alt="Nome do projeto" />
+          </picture>
+          <h3>GitHub Explorer</h3>
+          <div class="informacoes-projeto">
+            <p>Visualize e acompanhe seus dados do GitHub de forma personalizada. Veja seu nome, seguidores, quem você
+              segue e muito mais. Acesse rapidamente seus repositórios e eventos recentes.</p>
+            <ul class="ferramentas">
+              <li><i class="fab fa-html5"></i></li>
+              <li><i class="fab fa-css3-alt"></i></li>
+              <li><i class="fab fa-js-square"></i></li>
+            </ul>
+            <div class="links">
+              <a href="https://github.com/Robson-Jorge/GitHub-API-buscando-usuarios-com-fetch" target="_blank">
+                <p>Ver repositório GitHub</p>
+              </a>
+              <a href="https://robson-jorge.github.io/GitHub-API-buscando-usuarios-com-fetch/" target="_blank">
+                <p>Ver GitHub Pages</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="projeto">
+          <picture>
+            <source media="(max-width:600px)" srcset="./src/assets/design-projetos/formulário-com-validação-mobile.gif">
+            <img src="./src/assets/design-projetos/Formulário-com-validação.gif" alt="Nome do projeto" />
+          </picture>
+          <h3>Formulário com validação</h3>
+          <div class="informacoes-projeto">
+            <p>Explore um formulário de contato interativo, onde cada campo é essencial. Este projeto simplificado
+              permite que os usuários entrem em contato com facilidade, garantindo que todas as informações importantes
+              sejam fornecidas.</p>
+            <ul class="ferramentas">
+              <li><i class="fab fa-html5"></i></li>
+              <li><i class="fab fa-css3-alt"></i></li>
+              <li><i class="fab fa-js-square"></i></li>
+            </ul>
+            <div class="links">
+              <a href="https://github.com/Robson-Jorge/formulario-com-validacao" target="_blank">
+                <p>Ver repositório GitHub</p>
+              </a>
+              <a href="https://robson-jorge.github.io/formulario-com-validacao/" target="_blank">
+                <p>Ver GitHub Pages</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contato">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/robson-jorge-62a12a26a/" target="_blank" class="outer-shadow"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=%2B556292600017&text&type=phone_number&app_absent=0"
+          target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/Robson-Jorge" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="mailto:robsonsouzajorge@hotmail.com" target="_blank" class="outer-shadow"><i
+            class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>

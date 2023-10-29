@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+
+html {
+  font-size: 62.5%;
+  color: var(--cor-branca);
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(335deg, #025373 25.29%, #02334D 47.99%, #021226 68.72%);
+  font-family: var(--fonte-primaria);
+  font-size: var(--fonte-normal);
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+@media(min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.alinhar-itens-no-centro {
+  align-items: center;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--cor-branca);
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.redes-sociais a i {
+  line-height: 50px;
+}
+
+.redes-sociais a:hover {
+  transform: translateY(-12%);
+  box-shadow: inset -1px -1px 3px var(--cor-primaria), -2px -2px 7px var(--cor-secundaria);
+}
+
+.outer-shadow {
+  box-shadow: 2px 2px 5px #43bd8d88, -2px -2px 5px #ffffff88;
+}
+
+.inner-shadow {
+  box-shadow: inset 2px 2px 5px #43bd8d88, inset -2px -2px 5px #ffffff88;
+}
+
+.section {
+  padding: 7rem 0 7rem;
+  visibility: hidden;
+  min-height: 100vh;
+}
+
+.section-title {
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 60px 0;
+}
+
+.section-title h2 {
+  font-size: var(--fonte-gigante);
+  font-weight: 500;
+  text-transform: uppercase;
+}

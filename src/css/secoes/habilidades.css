@@ -1,0 +1,101 @@
+.habilidades{
+    background:url(../../assets/wallpaper-habilidades.jpg) center/cover fixed;
+}
+
+.container-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    gap: 50px;
+}
+
+.habilidades .detalhes{
+    width: 500px;
+    min-height: 250px;
+    text-align: center;
+}
+
+.habilidades .detalhes h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.habilidades .detalhes p{
+    transition: all 0.3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.habilidades .detalhes .esconder{
+    display: none;
+}
+
+.habilidades .detalhes .escolhido{
+    display: flex;
+    justify-content: center;
+}
+
+.habilidades .tecnologias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 600px;
+}
+
+.habilidades .tecnologias .tools{
+    background: #7d7d7d10;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow: inset 2px 2px 3px #ffffff3d,  5px 5px 3px #0000003d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+    transition: all 0.3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.habilidades .tecnologias .tools:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px #1A6DFF, inset 0 0 3px #ffffff;
+}
+
+.habilidades .tecnologias .tools img{
+    width: 50px;
+    filter: contrast(1.2) brightness(1.2) drop-shadow(0px 5px 15px #1A6DFF);
+}
+
+@media (max-width:769px) {
+    .lista-info{
+        display: none;
+    }
+
+    .habilidades .detalhes{
+        min-height: auto;
+    }
+
+    .container-habilidades{
+        justify-content: center;
+    }
+}
+
+@media (max-width:620px){
+    .habilidades .tecnologias .tools{
+        width: 100px;
+        height: 100px;
+    }
+
+    .container-habilidades{
+        height: auto;
+    }
+}
