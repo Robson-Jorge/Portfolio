@@ -63,3 +63,9 @@
         transform: translateY(40%);
     }
 }
+
+@media (max-width:620px){
+    .down-arrow{
+        display: none;
+    }
+}
