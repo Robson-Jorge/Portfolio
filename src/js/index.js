@@ -2,7 +2,12 @@
 
 window.sr = ScrollReveal({ reset: true })
 
-sr.reveal('.home', { duration: 1500, delay: 200, distance: '500px', origin: 'top', easing: 'ease-in-out'});
+const larguraTelaAtual = window.innerWidth
+
+if(larguraTelaAtual > 628){
+    sr.reveal('.home', { duration: 1500, delay: 200, distance: '500px', origin: 'top', easing: 'ease-in-out'});
+}
+
 sr.reveal('.sobre-mim, .habilidades, .projetos', { duration: 1500, delay: 200 });
 sr.reveal('.projeto', { duration: 1500 , distance: '800px', origin: 'left', easing: 'ease-out' });
 
